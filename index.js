@@ -18,8 +18,10 @@ function sayHiToGrandma(str) {
   let result = "";
   if (str === str.toLowerCase()) {
      result = "I can't hear you!";
+  } else if (str === "I love you, Grandma.") {
+    result = "I love you, too."
   } else {
-    result = "YES INDEED!";
+    result = "INDEED"
   }
   return result;
 }
